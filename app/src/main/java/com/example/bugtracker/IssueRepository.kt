@@ -1,3 +1,4 @@
+// Offline-first sync: Room is the source of truth, Retrofit is the sync channel
 package com.example.bugtracker
 
 import kotlinx.coroutines.flow.Flow
