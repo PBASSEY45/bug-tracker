@@ -32,4 +32,4 @@ interface IssueDao {
 @Database(entities = [IssueTicket::class], version = 1)
 abstract class BugTrackerDatabase : RoomDatabase() {
     abstract fun issueDao(): IssueDao
-}
+}// Feature: order results by priority for faster triage
